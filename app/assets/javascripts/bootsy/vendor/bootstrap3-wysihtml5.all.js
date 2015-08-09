@@ -14882,7 +14882,9 @@ function program17(depth0,data) {
           'div': 1,
           'small': 1,
           'code': 1,
-          'pre': 1
+          'pre': 1,
+          'style': 1,
+          'script': 1
         }
       },
       locale: 'en',
