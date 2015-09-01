@@ -20,12 +20,19 @@ window.Bootsy.options = $.extend(true, $.fn.wysihtml5.defaultOptions, {
       },
       "img": {
         "check_attributes": {
-          "src": "src"
+                        "width": "numbers",
+                        "alt": "alt",
+                        "src": "url",
+                        "height": "numbers",
+                        'style': 'allow',
+                        'class': 'allow'
         },
         "add_class": {
           "align": "align_img"
         }
       },
+	  "style": {},
+	  "script": {},
       // this allows youtube embed codes
       "iframe": {
         set_attributes: {
