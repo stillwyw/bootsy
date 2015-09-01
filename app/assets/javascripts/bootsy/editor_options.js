@@ -7,10 +7,9 @@ $('link[rel="stylesheet"]').each(function () {
 
 window.Bootsy.options = $.extend(true, $.fn.wysihtml5.defaultOptions, {
   parserRules: {
+	  // allowing all classes.
     classes: {
-      "wysiwyg-float-left": 1,
-      "wysiwyg-float-right": 1,
-      "wysiwyg-float-inline": 1
+		"*": 1
     },
     tags: {
       "cite": {
@@ -31,6 +30,7 @@ window.Bootsy.options = $.extend(true, $.fn.wysihtml5.defaultOptions, {
           "align": "align_img"
         }
       },
+	  // allowing style and script tags.
 	  "style": {},
 	  "script": {},
       // this allows youtube embed codes
