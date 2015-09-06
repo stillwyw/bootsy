@@ -9,7 +9,7 @@
 *Bootsy* is a WYSIWYG editor for Rails based on
 [Bootstrap3-wysihtml5](https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg) with image uploads using
 [CarrierWave](https://github.com/carrierwaveuploader/carrierwave).
-###Changes
+###Warning!
 This is a modified version from original Bootsy gem. Which enabled almost all custom classes and tags. **Please use it only on trustable situations**.
 
 
