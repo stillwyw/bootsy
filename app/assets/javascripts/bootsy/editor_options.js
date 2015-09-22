@@ -21,7 +21,7 @@ window.Bootsy.options = $.extend(true, $.fn.wysihtml5.defaultOptions, {
         "check_attributes": {
                         "width": "numbers",
                         "alt": "alt",
-                        "src": "url",
+                        "src": "src",
                         "height": "numbers",
                         'style': 'allow',
                         'class': 'allow'
